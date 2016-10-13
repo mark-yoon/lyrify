@@ -1,0 +1,17 @@
+{
+  "name": "osx_spotify_lyrics",
+  "version": "1.0.0",
+  "description": "Display a window to display lyrics playing on Spotify",
+  "main": "main.js",
+  "dependencies": {
+    "node-osascript": "^1.0.4"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.2"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
