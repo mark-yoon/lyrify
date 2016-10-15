@@ -2,9 +2,14 @@
   "name": "osx_spotify_lyrics",
   "version": "1.0.0",
   "description": "Display a window to display lyrics playing on Spotify",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/yhyoon12/lyrify.git"
+  },
   "main": "main.js",
   "dependencies": {
-    "node-osascript": "^1.0.4"
+    "node-osascript": "^1.0.4",
+    "electron-packager": "^8.1.0"
   },
   "devDependencies": {
     "electron-prebuilt": "^0.35.2"
