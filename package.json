@@ -1,5 +1,5 @@
 {
-  "name": "osx_spotify_lyrics",
+  "name": "lyrify",
   "version": "1.0.0",
   "description": "Display a window to display lyrics playing on Spotify",
   "repository" : {
