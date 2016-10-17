@@ -10,7 +10,7 @@ app.on('window-all-closed', function() {
 
 app.on('ready', function() {
   mainWindow = new BrowserWindow({width: 1000, height: 625});
-  mainWindow.openDevTools();
+  //mainWindow.openDevTools();
   mainWindow.loadURL('file://' + __dirname + '/index.html');
   mainWindow.on('closed', function() {
     mainWindow = null;
