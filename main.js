@@ -9,7 +9,11 @@ app.on('window-all-closed', function() {
 });
 
 app.on('ready', function() {
-  mainWindow = new BrowserWindow({width: 1000, height: 625});
+  mainWindow = new BrowserWindow({
+    'width': 700,
+    'height': 1000,
+    'web-preferences': { 'web-security': false }
+  });
   //mainWindow.openDevTools();
   mainWindow.loadURL('file://' + __dirname + '/index.html');
   mainWindow.on('closed', function() {

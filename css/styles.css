@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+#title {
+  font-size: 3.3em;
+  margin-top: 20px;
+}
+#artist {
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+#lyrics {
+  margin-bottom: 35px;
+}

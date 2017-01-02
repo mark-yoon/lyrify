@@ -1,6 +1,6 @@
 {
   "name": "lyrify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Display a window to display lyrics playing on Spotify",
   "repository" : {
     "type": "git",
@@ -15,7 +15,7 @@
     "electron-prebuilt": "^0.35.2"
   },
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
   },
   "author": "",
   "license": "ISC"
