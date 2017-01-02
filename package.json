@@ -15,7 +15,7 @@
     "electron-prebuilt": "^0.35.2"
   },
   "scripts": {
-    "start": "electron main.js",
+    "start": "electron main.js"
   },
   "author": "",
   "license": "ISC"
