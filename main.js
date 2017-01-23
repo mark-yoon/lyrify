@@ -25,7 +25,7 @@ app.on('ready', function() {
         prev_song = song_title + ": " + song_artist;
         mainWindow.songTitle = song_title;
         mainWindow.songArtist = song_artist;
-        mainWindow.url = "";
+        mainWindow.url = "Hello";
         var python_process = require('child_process').execFile("python", ["./python/find_lyrics.py", song_title, song_artist], function(err, stdout, stderr) {
           mainWindow.url = stdout;
         });

@@ -1,5 +1,6 @@
 $(function(){
   setInterval( function() {
+    console.log(require('electron').remote.getCurrentWindow().url);
     $.ajax({
       url: require('electron').remote.getCurrentWindow().url,
       type: "GET",
