@@ -6,5 +6,3 @@ The only reason that this is OS X specific is that it uses Applescript to grab t
 
 This is built on Electron.
 
-![example](./docs/example.png)
-
